@@ -1,0 +1,15 @@
+Package: imputeDepth
+Type: Package
+Title: Depth-based imputation
+Version: 0.1.0
+Date: 2018-07-30
+Author: Pavlo Mozharovskyi [aut, cre]
+Maintainer: Pavlo Mozharovskyi <pavlo.mozharovskyi@ensai.fr>
+Description: A collection of functions for depth-based imputation
+License: GPL (>= 2)
+LazyData: TRUE
+SystemRequirements: C++11
+Depends: robustbase,geometry
+Imports: Rcpp
+LinkingTo: BH, Rcpp
+RoxygenNote: 6.0.1

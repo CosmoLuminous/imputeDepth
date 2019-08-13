@@ -1,0 +1,7 @@
+useDynLib(imputeDepth)
+export(impute.depth,
+       impute.ell.improper,
+       impute.ell.multiple,
+       impute.depth.local,
+       impute.depth.Mahalanobis)
+import(Rcpp)
